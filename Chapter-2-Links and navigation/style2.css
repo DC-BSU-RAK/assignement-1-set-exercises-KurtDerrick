@@ -1,0 +1,70 @@
+main {
+    padding: 20px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif,;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.wickedwalls.com.au/uploads/2/2/7/6/2276646/s351108049999434943_p2527_i78_w750.jpeg);
+    background-size: cover;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: rgb(219, 219, 194);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.button {
+    background-color: #0065a4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.button:hover {
+    background-color: rgb(2, 148, 148);
+    color: white;
+}
